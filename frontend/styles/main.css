@@ -1,0 +1,485 @@
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: #FCF8E8;
+}
+
+.navbar {
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand img {
+  width: 120px;
+  border-radius: 20px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light {
+  background: transparent;
+}
+.navbar-light .navbar-nav .nav-item {
+  padding: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.konten-tulisan h1 {
+  background-color: white;
+}
+
+.carousel img {
+  max-height: 600px;
+}
+
+.tentang-kami {
+  margin-top: 60px;
+}
+.tentang-kami h1 {
+  margin-bottom: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.tentang-kami h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #610608;
+}
+.tentang-kami p {
+  font-family: "Assistant", sans-serif;
+  font-size: 20px;
+  color: #7a807c;
+}
+.tentang-kami img {
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.produk-kami .card-produk {
+  max-height: 380px;
+  max-width: 260px;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.product-kami h1 {
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+
+.slide-produk {
+  margin-bottom: 80px;
+}
+.slide-produk img {
+  max-height: 350px;
+  border-radius: 10px;
+}
+
+.nama-paket {
+  margin-bottom: 20px;
+}
+
+.content-choose i {
+  font-size: 200px;
+}
+.content-choose h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #610608;
+}
+
+.header-choose {
+  margin-top: 30px;
+  padding: 30px;
+}
+.header-choose h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.header-choose h4 {
+  font-family: "Roboto", sans-serif;
+  color: #610608;
+}
+
+.header-gallery h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+  padding: 70px;
+}
+
+.header-testimoni {
+  padding: 50px;
+}
+.header-testimoni h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+
+.header-testimoni h1 {
+  margin-bottom: 60px;
+}
+
+.testi {
+  padding: 10px;
+  border-radius: 10px;
+}
+.testi h5 {
+  font-family: "Assistant", sans-serif;
+}
+.testi img {
+  width: 60px;
+  height: 60px;
+}
+.testi p {
+  font-family: "Assistant", sans-serif;
+  color: #7a807c;
+}
+.testi i {
+  color: #610608;
+}
+
+.contact .header-contact {
+  padding: 50px;
+}
+.contact h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+
+.daftar-contact {
+  margin: auto;
+}
+.daftar-contact h2 {
+  font-family: "Yellowtail", cursive;
+  font-weight: bold;
+  color: #610608;
+  font-size: 70px;
+}
+.daftar-contact h4 {
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.daftar-contact a {
+  color: black;
+}
+.daftar-contact a i {
+  font-size: 50px;
+  padding: 20px;
+}
+.daftar-contact a:hover {
+  color: blue;
+}
+
+.maps-contact iframe {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.header-product {
+  padding: 30px;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.header-product h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 60px;
+}
+
+.breadcrumb {
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.info-produk img {
+  width: 500px;
+  border-radius: 15px;
+}
+.info-produk h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.info-produk h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.info-produk h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.recent-produk {
+  margin-top: 10px;
+  background-color: white;
+  max-height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.recent-produk hr {
+  color: black;
+}
+.recent-produk h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+  margin-top: 10px;
+}
+.recent-produk a {
+  color: #610608;
+}
+
+.menu-nasi .judul-list {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #610608;
+}
+.menu-nasi h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+}
+.menu-nasi .list-menu {
+  padding: 10px;
+}
+.menu-nasi .list-menu li {
+  padding: 5px;
+}
+
+.card-order {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-order h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #610608;
+  font-size: 40px;
+}
+.card-order i {
+  font-size: 100px;
+}
+.card-order p {
+  font-family: "Assistant", sans-serif;
+  color: #610608;
+  font-size: 20px;
+}
+.card-order a {
+  color: #610608;
+}
+.card-order a i {
+  font-size: 50px;
+}
+.card-order a i:hover {
+  color: blue;
+}
+
+.section-footer {
+  background-color: #862526;
+}
+.section-footer i {
+  font-size: 30px;
+  padding: 5px;
+}
+.section-footer h5 {
+  font-family: "Roboto", sans-serif;
+  color: #e9e3e3;
+}
+.section-footer a {
+  color: #c4c3c3;
+  font-family: "Assistant", sans-serif;
+}
+.section-footer .copyright p {
+  margin: 0;
+  color: white;
+  font-family: "Assistant", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+  .info-produk img {
+    width: 340px;
+  }
+  .info-produk h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #610608;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+  .info-produk img {
+    width: 340px;
+  }
+  .info-produk h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #610608;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+  .info-produk img {
+    width: 340px;
+  }
+  .info-produk h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #610608;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+  .info-produk img {
+    width: 340px;
+  }
+  .info-produk h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #610608;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #071C4D;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #071C4D !important;
+  }
+  .tentang-kami img {
+    width: 100%;
+  }
+  .info-produk img {
+    width: 340px;
+  }
+  .info-produk h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #610608;
+  }
+}
+.wa-stuck {
+  margin-top: -30px;
+  position: fixed;
+  top: 570px;
+  float: right;
+}
+.wa-stuck img {
+  width: 60px;
+  display: block;
+  display: inline;
+}
+.wa-stuck a {
+  color: black;
+  margin: auto;
+}
+.wa-stuck span {
+  background-color: #7d7de0;
+  color: white;
+  padding: 3px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+}
+.wa-stuck span:hover {
+  background-color: #27276b;
+}/*# sourceMappingURL=main.css.map */

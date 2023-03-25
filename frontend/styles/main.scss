@@ -1,0 +1,623 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #FCF8E8;
+}
+
+// navbar
+.navbar{
+  background:transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.navbar-brand {
+  img {
+   width: 120px;
+   border-radius: 20px;
+  }
+}
+
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light {
+  background: transparent;
+  .navbar-nav {
+    .nav-item{padding: 30px;
+    }
+    .nav-link {
+      color: #071C4D;
+      font-size: 20px;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+
+// header
+.konten-tulisan{
+  h1{
+    background-color: white;
+    
+  }
+}
+.carousel{ 
+  img{
+    max-height: 600px;
+  }
+}
+
+//about
+.tentang-kami{
+  margin-top: 60px;
+  h1{
+    margin-bottom: 70px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+  h3{
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+     margin-bottom: 30px;
+     color: #610608;
+  }
+  p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color:#7a807c;
+  }
+  img{
+    border-radius: 50px;
+     width: 100%;
+     margin-bottom: 20px;
+  }
+}
+
+.produk-kami {
+  .card-produk{
+     max-height: 380px;
+     max-width: 260px;
+      padding: 30px;
+      margin-bottom: 30px;
+      background-size: cover;
+      border-radius: 8px;
+  }
+}
+ 
+
+//package
+.product-kami{
+   h1{
+padding: 40px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+}
+.slide-produk{
+  margin-bottom: 80px;
+  img{
+    max-height: 350px;
+    border-radius: 10px;
+  }
+ 
+}
+.nama-paket{
+  margin-bottom: 20px;
+}
+
+//why choose
+.content-choose{
+  i{
+    font-size: 200px;
+  }
+  h3{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #610608;
+  }
+}
+
+.header-choose {
+  margin-top: 30px;
+  padding: 30px;
+  h1{
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+  h4{
+     font-family: 'Roboto', sans-serif;
+   color: #610608;
+  }
+}
+
+// GALERYY
+
+.header-gallery{
+  h1{
+    font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+   padding: 70px;
+  }
+}
+
+//TESTIMONI
+.header-testimoni{
+  padding: 50px;
+  h1{
+     font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+}
+//testimoni
+.header-testimoni{
+  h1{
+    margin-bottom: 60px;
+  }
+}
+.testi{
+  padding: 10px;
+  border-radius: 10px;
+  h5{
+     font-family: 'Assistant', sans-serif;
+   
+  }
+  img{
+    width: 60px;
+    height: 60px;
+  }
+  p{
+     font-family: 'Assistant', sans-serif;
+   color:#7a807c;
+  }
+  i{
+    color:#610608 ; 
+  }
+}
+
+
+
+
+
+
+//contact
+
+.contact{
+  .header-contact{
+    padding: 50px;
+  }
+  h1{
+     font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+}
+.daftar-contact{
+  margin: auto;
+  h2{
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+   color: #610608;
+   font-size: 70px;
+  }
+  h4{
+    margin-bottom: 40px;
+     font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+  a{
+    color: black;
+    i{
+      font-size: 50px;
+      padding: 20px;
+    }
+    &:hover{
+      color: blue;
+    }
+  }
+}
+.maps-contact{
+  iframe{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+
+//tiap2 package
+
+//header
+.header-product{ 
+  padding: 30px;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+
+h1 {
+   font-family: 'Roboto', sans-serif;
+    color: white;
+  padding: 60px;
+}
+
+
+}
+//bread
+.breadcrumb{
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+//info produk
+.info-produk{
+  img{
+    width: 500px;
+    border-radius: 15px;
+  }
+  h1{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  h4{
+    font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608; 
+  }
+  p{
+
+  }
+}
+
+.recent-produk{
+  margin-top: 10px ; 
+  background-color: white;
+  max-height: 300px;
+  border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  hr{
+    color: black;
+  }
+  h3{
+     font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+   margin-top: 10px;
+  }
+  a{
+    color: #610608;
+  }
+}
+
+//nasi kotak
+.menu-nasi{
+  .judul-list {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #610608;
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+  }
+  .list-menu{
+    padding: 10px;
+    li{
+      padding: 5px;
+    }
+  }
+}
+
+
+//info
+
+.card-order{
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  h3{
+     font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;
+   font-size: 40px;
+  }
+  i{
+    font-size: 100px;
+  }
+  p{
+     font-family: 'Assistant', sans-serif;
+   color :#610608 ;
+   font-size: 20px;
+  }
+  a{
+    color: #610608;
+    i{
+      font-size: 50px;
+      &:hover{
+        color: blue;
+      }
+    }
+  }
+}
+
+
+//footer
+.section-footer{
+  background-color: #862526;
+  i{
+    font-size: 30px;
+    padding: 5px;
+  }
+  
+  h5{
+    font-family: 'Roboto', sans-serif;
+   
+   color: #e9e3e3;
+  }
+  a{
+    color: #c4c3c3;
+     font-family: 'Assistant', sans-serif;
+   
+  }
+  .copyright{
+    p{
+      margin: 0;
+      color: white;
+      font-family: 'Assistant', sans-serif;
+   
+      
+    }
+  }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}
+.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+.info-produk{
+  img{
+    width: 340px;
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  p{
+
+  }
+}
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+.info-produk{
+  img{
+    width: 340px;
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  p{
+
+  }
+}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+.info-produk{
+  img{
+    width: 340px;
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  p{
+
+  }
+}
+}
+@media only screen and (max-width: 1000px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+.info-produk{
+  img{
+    width: 340px;
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  p{
+
+  }
+}
+}
+@media only screen and (max-width: 800px) {
+  .navbar-brand {
+  img {
+   display: none;
+  }
+}.navbar-light {
+  .navbar-nav {
+    .nav-item{padding: 0px;
+    }
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+.tentang-kami{
+  img{
+    width: 100%;
+  }
+}
+.info-produk{
+  img{
+    width: 340px;
+  }
+  h3{
+ font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #610608;  
+  }
+  p{
+
+  }
+}
+}
+
+//wa stuck
+.wa-stuck{
+  margin-top: -30px;
+  position:fixed;
+  top:570px;
+  float: right;
+  img{
+    width: 60px;
+    display: block;
+    display: inline;
+  }
+  a{
+    color: black;
+    margin: auto;
+  }
+  span{
+    background-color: #7d7de0;
+    color: white;
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+   border-radius: 10px;
+   &:hover{
+    background-color: #27276b;
+   }
+  }
+}
